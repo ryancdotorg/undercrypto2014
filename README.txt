@@ -2,4 +2,11 @@ This was my entry to the 2014 Underhanded Crypto Contest. It was a finalist.
 
 The other entries are here: https://underhandedcrypto.com/2015/03/21/all-underhanded-crypto-entries/
 
-My design writeup is DESIGN.txt, and the attack is described in ATTACK.txt
+Files:
+DESIGN.txt - design writeup (no spoilers)
+ATTACK.txt - description of the vulnerability and attack
+ec.py - elliptic curve lib (striped down from pybitcointools)
+ecss.py - the main code (no spoilers)
+ecss_generate.py - generate a self-signed ecss key
+ecss_verify.py - verify a self-signed ecss key
+ecss_attack.py - recover the private key for a self-signed ecss key
